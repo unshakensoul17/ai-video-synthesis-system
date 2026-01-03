@@ -36,7 +36,7 @@ The system follows a **human-in-the-loop + AI automation** approach:
 
 ## System Architecture
 
-       Topic
+   Topic
         ↓
   Script Generator (LLM)
         ↓
