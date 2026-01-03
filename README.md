@@ -35,16 +35,15 @@ The system follows a **human-in-the-loop + AI automation** approach:
 ---
 
 ## System Architecture
-
-   Topic
-        ↓
-  Script Generator (LLM)
-        ↓
-  Animation Blueprint Generator
-        ↓
-  Rendering Plan (Manim / Lottie + FFmpeg)
-        ↓
-  MP4 Video Output
+Topic
+↓
+Script Generator (LLM)
+↓
+Animation Blueprint Generator
+↓
+Rendering Plan (Manim / Lottie + FFmpeg)
+↓
+MP4 Video Output
 
 
 Each stage produces a **machine-readable JSON artifact** that is consumed by the next stage.
